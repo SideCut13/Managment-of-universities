@@ -6,6 +6,8 @@ import java.sql.SQLException;
 import javax.swing.JFrame;
 
 import com.ania.database.Database;
+import com.ania.database.DatabaseDao;
+import com.ania.database.DatabaseDaoImpl;
 import com.ania.domain.Student;
 import com.ania.panels.PanelMain;
 
@@ -35,6 +37,8 @@ public class App
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
+        DatabaseDao dao = new DatabaseDaoImpl();
 
         javax.swing.SwingUtilities.invokeLater(
                 new Runnable()

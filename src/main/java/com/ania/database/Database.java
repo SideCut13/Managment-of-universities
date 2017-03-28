@@ -21,18 +21,16 @@ public class Database {
     private static final String DRV = "org.sqlite.JDBC";
     private static final String DB = "jdbc:sqlite:Dziekanat.db";
 
-    private static Connection conn; //obiekt do zarzadzania polaczeniem z db
-    private static Statement stat; //obiekt wspomagajacy w niektorych zapytaniach sql
+    private static Connection conn;
+    private static Statement stat;
 
 
-    //zeby klasa byla statyczna musze zrobic jej prywatny konstruktor bezargumentowy
     private Database(){}
 
     public static void connect() throws ClassNotFoundException, SQLException
     {
-        Class.forName(DRV); //ladujemy do naszej aplikacji sterownik JDBC dla sqlite
+        Class.forName(DRV);
 
-        //w sqlite mechanizm kluczy obcych jest automatycznie wylaczany
         SQLiteConfig conf = new SQLiteConfig();
         conf.enforceForeignKeys(true);
 
@@ -137,12 +135,7 @@ public class Database {
     }
 
 
-    //update
-    //select User ale tylko po username - ma zwracac true jezeli juz taki user istnieje - po to zeby nie bylo takich samych
-    //userow
-    //select User ale tylko po username i password - zwraca User kiedy istnieje user o takim hasle i loginie
-    //lub null
-    //delete
+
     public static void updateStudent(Student s) throws SQLException
     {
         String sqlUpdate = "UPDATE Student SET name = ?, surname = ?, age = ?, address = ?, email = ? WHERE id = ?;";
@@ -205,7 +198,7 @@ public class Database {
         int id, age;
         String name, surname, address, email;
 
-        while(rs.next()) //zarowno sprawdza czy jest kolejny wiersz jak i go pobiera
+        while(rs.next())
         {
             id = rs.getInt(1);
             name = rs.getString(2);
@@ -229,7 +222,7 @@ public class Database {
         int id, age;
         String name, surname, address, email;
 
-        if(rs.next()) //zarowno sprawdza czy jest kolejny wiersz jak i go pobiera
+        if(rs.next())
         {
             id = rs.getInt(1);
             name = rs.getString(2);
@@ -252,7 +245,7 @@ public class Database {
 
         int id;
 
-        while(rs.next()) //zarowno sprawdza czy jest kolejny wiersz jak i go pobiera
+        while(rs.next())
         {
             id = rs.getInt(1);
             studentsIds.add(id);
@@ -270,7 +263,7 @@ public class Database {
         int id, year;
         String name, city, address, email, telephoneNumber;
 
-        while(rs.next()) //zarowno sprawdza czy jest kolejny wiersz jak i go pobiera
+        while(rs.next())
         {
             id = rs.getInt(1);
             name = rs.getString(2);
@@ -293,7 +286,7 @@ public class Database {
 
         int id;
 
-        while(rs.next()) //zarowno sprawdza czy jest kolejny wiersz jak i go pobiera
+        while(rs.next())
         {
             id = rs.getInt(1);
             universityIds.add(id);
@@ -311,7 +304,7 @@ public class Database {
         int id, year;
         String name, city, address, email, telephoneNumber;
 
-        if(rs.next()) //zarowno sprawdza czy jest kolejny wiersz jak i go pobiera
+        if(rs.next())
         {
             id = rs.getInt(1);
             name = rs.getString(2);

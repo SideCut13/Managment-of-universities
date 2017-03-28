@@ -23,6 +23,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
 import com.ania.database.Database;
+import com.ania.database.DatabaseDao;
+import com.ania.database.DatabaseDaoImpl;
 import com.ania.domain.StudentUniversity;
 import com.ania.models.CustomComboBoxModel;
 import com.ania.models.CustomJListModel;
@@ -60,8 +62,13 @@ public class PanelFilter extends JPanel{
     private JComboBox<Integer> cbAgeTo;
     private CustomComboBoxModel<Integer> modelCbAgeTo;
 
+    private DatabaseDao databaseDao;
+
     public PanelFilter(){
         super(new GridBagLayout());
+
+        databaseDao = DatabaseDaoImpl.getInstance();
+
         setBackground(new Color(254, 91, 172));
 
         JPanel panelTable = new JPanel(new GridBagLayout());
