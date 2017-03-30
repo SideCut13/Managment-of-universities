@@ -111,6 +111,56 @@ public class DatabaseDaoImpl implements DatabaseDao{
 
     @Override
     public void insertUniversity(University u) throws SQLException {
-
+        String sqlInsert2 = "INSERT INTO University (name, city, address, email, telephoneNumber, year) VALUES (?,?,?,?,?,?);";
+        PreparedStatement ps2 = conn.prepareStatement(sqlInsert2);
+        ps2.setString(1, u.getName());
+        ps2.setString(2, u.getCity());
+        ps2.setString(3, u.getAddress());
+        ps2.setString(4, u.getEmail());
+        ps2.setString(5, u.getTelephoneNumber());
+        ps2.setInt(6, u.getYear());
+        ps2.execute();
     }
+
+    public void updateStudent(Student s) throws SQLException
+    {
+        String sqlUpdate = "UPDATE Student SET name = ?, surname = ?, age = ?, address = ?, email = ? WHERE id = ?;";
+        PreparedStatement ps = conn.prepareStatement(sqlUpdate);
+        ps.setString(1, s.getName());
+        ps.setString(2,  s.getSurname());
+        ps.setInt(3,  s.getAge());
+        ps.setString(4,  s.getAddress());
+        ps.setString(5, s.getEmail());
+        ps.setInt(6, s.getId());
+        ps.execute();
+    }
+    public void updateUniversity(University u) throws SQLException
+    {
+        String sqlUpdate = "UPDATE University SET name = ?, city = ?, address = ?, email = ?, telephoneNumber = ?, year = ? WHERE id = ?;";
+        PreparedStatement ps = conn.prepareStatement(sqlUpdate);
+        ps.setString(1, u.getName());
+        ps.setString(2,  u.getCity());
+        ps.setString(3,  u.getAddress());
+        ps.setString(4, u.getEmail());
+        ps.setString(5, u.getTelephoneNumber());
+        ps.setInt(6, u.getYear());
+        ps.setInt(7, u.getId());
+        ps.execute();
+    }
+
+    public void deleteStudent(int id) throws SQLException
+    {
+        String sqlDelete = "DELETE FROM Student WHERE id = ?";
+        PreparedStatement ps = conn.prepareStatement(sqlDelete);
+        ps.setInt(1, id);
+        ps.execute();
+    }
+    public void deleteUniversity(int id) throws SQLException
+    {
+        String sqlDelete = "DELETE FROM University WHERE id = ?";
+        PreparedStatement ps = conn.prepareStatement(sqlDelete);
+        ps.setInt(1, id);
+        ps.execute();
+    }
+
 }

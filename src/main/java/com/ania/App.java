@@ -38,10 +38,11 @@ public class App
             e.printStackTrace();
         }
 
-        DatabaseDao dao = new DatabaseDaoImpl();
+        //DatabaseDao dao = new DatabaseDaoImpl(); this will be in first but not working
 
+        DatabaseDao databaseDao = DatabaseDaoImpl.getInstance();
         javax.swing.SwingUtilities.invokeLater(
-                new Runnable()
+        new Runnable()
                 {
                     public void run()
                     {

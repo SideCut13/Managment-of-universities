@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41ca841a-8eaf-49a0-b10b-217b7fe71ce7" name="Default" comment="version 1.0 - without working PanelStatistics and PanelLogin">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java" />
+    <list default="true" id="41ca841a-8eaf-49a0-b10b-217b7fe71ce7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/database/Database.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/database/Database.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertUniversity.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertUniversity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateStudent.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateStudent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateUniversity.java" afterPath="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateUniversity.java" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <manually-removed-from-ignored>
@@ -31,21 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
+            <state relative-caret-position="2669">
+              <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
               <folding>
                 <marker date="1490737999680" expanded="true" signature="1121:1502" ph="CREATE TABLE... IF" />
                 <marker date="1490737999680" expanded="true" signature="1539:1979" ph="CREATE TABLE... IF" />
@@ -78,11 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/App.java">
+      <file leaf-file-name="PanelInsertRegistration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="867">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PanelInsertStudent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +93,8 @@
       <file leaf-file-name="DatabaseDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,26 +103,19 @@
       <file leaf-file-name="DatabaseDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+            <state relative-caret-position="2057">
+              <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
               <folding>
-                <marker date="1490650014699" expanded="true" signature="1278:1659" ph="CREATE TABLE... IF" />
-                <marker date="1490650014699" expanded="true" signature="1696:2136" ph="CREATE TABLE... IF" />
-                <marker date="1490650014699" expanded="true" signature="2175:2735" ph="CREATE TABLE... IF" />
-                <marker date="1490650014699" expanded="true" signature="2766:3194" ph="CREATE TABLE... IF" />
-                <marker date="1490650014699" expanded="true" signature="3642:3717" ph="INSERT INTO Student... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PanelFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1490880794509" expanded="true" signature="1278:1659" ph="CREATE TABLE... IF" />
+                <marker date="1490880794509" expanded="true" signature="1696:2136" ph="CREATE TABLE... IF" />
+                <marker date="1490880794509" expanded="true" signature="2175:2735" ph="CREATE TABLE... IF" />
+                <marker date="1490880794509" expanded="true" signature="2766:3194" ph="CREATE TABLE... IF" />
+                <marker date="1490880794509" expanded="true" signature="3642:3717" ph="INSERT INTO Student... " />
+                <marker date="1490880794509" expanded="true" signature="4123:4218" ph="INSERT INTO University... " />
+                <marker date="1490880794509" expanded="true" signature="4660:4746" ph="UPDATE Stude... " />
+                <marker date="1490880794509" expanded="true" signature="5173:5281" ph="UPDATE Unive... " />
+                <marker date="1490880794509" expanded="true" signature="5746:5778" ph="DELETE FROM " />
+                <marker date="1490880794509" expanded="true" signature="5995:6030" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -161,22 +156,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ania/models/CustomComboBoxModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/models/CustomJListModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/models/CustomTableModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertUniversity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelRegistration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUniversity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateUniversity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelStatistics.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ania/database/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertUniversity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateUniversity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ania/App.java" />
       </list>
     </option>
   </component>
@@ -229,8 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -914,7 +909,10 @@
       <workItem from="1490209335622" duration="39000" />
       <workItem from="1490209733044" duration="1258000" />
       <workItem from="1490648656999" duration="1681000" />
-      <workItem from="1490737892070" duration="107000" />
+      <workItem from="1490737892070" duration="245000" />
+      <workItem from="1490866868911" duration="1482000" />
+      <workItem from="1490880647368" duration="1093000" />
+      <workItem from="1490881769292" duration="593000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0 - without working PanelStatistics and PanelLogin">
       <created>1490210338812</created>
@@ -923,11 +921,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490210338812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 1.0+ - Database change, Dao">
+      <created>1490738037481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490738037481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12075000" />
+    <option name="totallyTimeSpent" value="15381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -939,8 +944,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15905511" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" x="0" y="46" width="1366" height="635" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15905511" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1480315" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -949,8 +954,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -973,7 +978,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1.0 - without working PanelStatistics and PanelLogin" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.0 - without working PanelStatistics and PanelLogin" />
+    <MESSAGE value="version 1.0+ - Database change, Dao" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0+ - Database change, Dao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1392,41 +1398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5066">
-          <caret line="298" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertUniversity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2712">
-          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelRegistration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="166" column="42" selection-start-line="166" selection-start-column="42" selection-end-line="166" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1441,13 +1412,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateUniversity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1467,7 +1431,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="0">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
@@ -1480,50 +1444,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertUniversity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="312">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateUniversity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
-          <folding>
-            <marker date="1490650014699" expanded="true" signature="1278:1659" ph="CREATE TABLE... IF" />
-            <marker date="1490650014699" expanded="true" signature="1696:2136" ph="CREATE TABLE... IF" />
-            <marker date="1490650014699" expanded="true" signature="2175:2735" ph="CREATE TABLE... IF" />
-            <marker date="1490650014699" expanded="true" signature="2766:3194" ph="CREATE TABLE... IF" />
-            <marker date="1490650014699" expanded="true" signature="3642:3717" ph="INSERT INTO Student... " />
-          </folding>
+        <state relative-caret-position="273">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelUpdateStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="45">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="466" column="0" selection-start-line="466" selection-start-column="0" selection-end-line="466" selection-end-column="0" />
+        <state relative-caret-position="2669">
+          <caret line="172" column="32" selection-start-line="172" selection-start-column="32" selection-end-line="172" selection-end-column="32" />
           <folding>
             <marker date="1490737999680" expanded="true" signature="1121:1502" ph="CREATE TABLE... IF" />
             <marker date="1490737999680" expanded="true" signature="1539:1979" ph="CREATE TABLE... IF" />
@@ -1552,6 +1500,73 @@
             <marker date="1490737999680" expanded="true" signature="15039:15076" ph="DELETE FROM " />
             <marker date="1490737999680" expanded="true" signature="15573:15909" ph="SELECT R.id,... Student" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
+          <folding>
+            <marker date="1490880794509" expanded="true" signature="1278:1659" ph="CREATE TABLE... IF" />
+            <marker date="1490880794509" expanded="true" signature="1696:2136" ph="CREATE TABLE... IF" />
+            <marker date="1490880794509" expanded="true" signature="2175:2735" ph="CREATE TABLE... IF" />
+            <marker date="1490880794509" expanded="true" signature="2766:3194" ph="CREATE TABLE... IF" />
+            <marker date="1490880794509" expanded="true" signature="3642:3717" ph="INSERT INTO Student... " />
+            <marker date="1490880794509" expanded="true" signature="4123:4218" ph="INSERT INTO University... " />
+            <marker date="1490880794509" expanded="true" signature="4660:4746" ph="UPDATE Stude... " />
+            <marker date="1490880794509" expanded="true" signature="5173:5281" ph="UPDATE Unive... " />
+            <marker date="1490880794509" expanded="true" signature="5746:5778" ph="DELETE FROM " />
+            <marker date="1490880794509" expanded="true" signature="5995:6030" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/database/DatabaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertRegistration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ania/panels/PanelInsertStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

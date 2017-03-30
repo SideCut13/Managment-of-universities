@@ -16,6 +16,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 import com.ania.database.Database;
+import com.ania.database.DatabaseDao;
+import com.ania.database.DatabaseDaoImpl;
 import com.ania.domain.Student;
 
 public class PanelInsertRegistration extends JPanel {
@@ -61,8 +63,11 @@ public class PanelInsertRegistration extends JPanel {
 
     private PanelRegistration panelRegistration;
 
+    private DatabaseDao databaseDao;
+
     public PanelInsertRegistration(PanelRegistration panelRegistration) {
         this.panelRegistration = panelRegistration;
+        databaseDao = DatabaseDaoImpl.getInstance();
 
         setBackground(new Color(254, 91, 172));
 

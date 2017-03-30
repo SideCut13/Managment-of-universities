@@ -16,6 +16,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 import com.ania.database.Database;
+import com.ania.database.DatabaseDao;
+import com.ania.database.DatabaseDaoImpl;
 import com.ania.domain.University;
 
 public class PanelInsertUniversity extends JPanel{
@@ -37,10 +39,13 @@ public class PanelInsertUniversity extends JPanel{
     private JButton btnInsert = new JButton("INSERT");
     private JButton btnCancel = new JButton("CANCEL");
 
+    private DatabaseDao databaseDao;
+
     private PanelUniversity panelUniversity;
 
     public PanelInsertUniversity(PanelUniversity panelUniversity){
         super(new GridBagLayout());
+        databaseDao = DatabaseDaoImpl.getInstance();
         this.panelUniversity = panelUniversity;
 
         setBackground(new Color(254, 91, 172));
